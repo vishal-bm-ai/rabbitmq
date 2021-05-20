@@ -1,0 +1,13 @@
+Graceful Restart (Zero Downtime Deployments)
+1. supervisor reread
+2. supervisor update
+caveats (Needs to look at):
+1. Does supervisor waits until the running process finishes?
+2. If not till what time it'll wait before restart
+??
+----------------------------------------------------------------
+RabbitMQ Parallelism(Running multiple celery worker process)
+1. As per out current finding we can run celery process at max on 2 servcers.
+   This is exactly the same as the number of rabbitmq servers.
+??
+-----------------------------------------------------------------
